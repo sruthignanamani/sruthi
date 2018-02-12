@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head><script>
+function getvalues(){
+alert(document.form2.firstname.value);
+}
+</script></head>
+<body>
+<body style="background-color:pink;">
+<h1><marquee>hurry up</marquee></h1>
+<h2>STUDENTS DETAILS FORM</h2>
+<br><br>
+
+<form action="#" name="form2">
+First name:<br>
+<input type="text" name="firstname">
+<br><br>
+Last name:<br>
+<input type="text" name="lastname">
+<br><br>
+GENDER:<br>
+<input type="radio" name="gender" value="male">
+Male<br>
+<input type="radio" name="gender" value="female">
+Female<br>
+<input type="radio" name="gender" value="others">
+Other<br>
+<br>
+ADDRESS:<br>
+<textarea name="Address:" rows="3" cols="20">
+</textarea><br>
+<br><br>
+DEGREE:<br>
+<select name="DEGREE">
+<option value="cse">cse</option>
+<option value="it">it</option>
+<option value="mech">mech</option>
+<option value="aero">aero</option>
+<option value="civil">civil</option>
+</select>
+<br><br>
+COURSE:<br>
+<select name="COURSE"multiple>
+<option value="C">C</option>
+<option value="C++">C++</option>
+<option value="JAVA">JAVA</option>
+<option value="PYTHON">PYTHON</option><br>
+<br><input type="submit" value="submit" onclick="getvalues();return false;">
+<input type="cancel" value="cancel">
+</form>
+</body>
+</html>
